@@ -1,0 +1,11 @@
+{
+  "RETOOL": "retool",
+  "VOLTZ": "voltz",
+  "DASHBOARD": "dashboard",
+  "STATIONS": "estaciones",
+  "BATTERIES": "pilas",
+  "SUPPORT": "apoyo",
+  "ADMINISTRATION": "administración",
+  "USER": "usuario",
+  "PERMISSIONS": "permisos"
+}
