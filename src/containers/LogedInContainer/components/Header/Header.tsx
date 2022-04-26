@@ -12,7 +12,7 @@ import { useHistory } from 'react-router-dom';
 import { HeaderButton } from './components';
 import { Divider } from '../../../../components';
 
-import { user } from '../../../../types/user';
+import { user } from '../../../../utils/mock';
 import capitalize from '../../../../utils/captalize';
 import changeLanguage from '../../../../utils/changeLanguage';
 
@@ -40,21 +40,21 @@ const Header = () => {
   }));
 
   const buttonList = [
-    { text: 'DASHBOARD', icon: SettingsIcon, onCLick: () => history.push('/') },
+    { text: 'DASHBOARD', icon: SettingsIcon, onClick: () => history.push('/') },
     {
       text: 'STATIONS',
       icon: EvStationIcon,
-      onCLick: () => history.push('/stations'),
+      onClick: () => history.push('/stations'),
     },
     {
       text: 'BATTERIES',
       icon: BatteryCharging90Icon,
-      onCLick: () => history.push('/batteries'),
+      onClick: () => history.push('/batteries'),
     },
     {
       text: 'SUPPORT',
       icon: HeadsetMicIcon,
-      onCLick: () => history.push('/support'),
+      onClick: () => history.push('/support'),
     },
     {
       text: 'ADMINISTRATION',

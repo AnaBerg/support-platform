@@ -2,7 +2,7 @@ import { BrowserRouter, Switch } from 'react-router-dom';
 
 import { LogedInContainer, LogedOutContainer } from '../containers';
 
-import { user } from '../types/user';
+import { user } from '../utils/mock';
 
 const Router = () => {
   return (
