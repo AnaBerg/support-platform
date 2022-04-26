@@ -4,40 +4,11 @@ import { I18nextProvider } from 'react-i18next';
 import Router from './Router';
 
 import i18n from './i18n';
+import { palette, typography } from './globalStyles';
 
 const theme = createTheme({
-  palette: {
-    background: {
-      default: '#F5F5F5',
-      paper: '#FCFCFC',
-    },
-    primary: {
-      main: '#1E1E21',
-    },
-    secondary: {
-      main: '#387FD8',
-    },
-    error: {
-      main: '#E84242',
-    },
-    success: {
-      main: '#2E9B54',
-    },
-    warning: {
-      main: '#E3783E',
-    },
-    common: {
-      white: '#EDEDED',
-    },
-    text: {
-      primary: '#3D3D3D',
-    },
-  },
-  typography: {
-    allVariants: {
-      fontFamily: 'Roboto',
-    },
-  },
+  palette,
+  typography,
 });
 
 const App = () => {

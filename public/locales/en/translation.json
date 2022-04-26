@@ -7,5 +7,6 @@
   "SUPPORT": "support",
   "ADMINISTRATION": "administration",
   "USER": "user",
-  "PERMISSIONS": "permissions"
+  "PERMISSION": "permissions",
+  "SYSTEM_ADMINISTRATOR": "system administrator"
 }

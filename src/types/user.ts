@@ -7,5 +7,5 @@ export interface IUser {
 export const user = {
   name: 'Nome',
   id: 'asdjakjshdka',
-  auth: 'ADM_SYS',
+  auth: 'SYSTEM_ADMINISTRATOR',
 } as IUser;

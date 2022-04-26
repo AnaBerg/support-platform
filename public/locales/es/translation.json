@@ -7,5 +7,6 @@
   "SUPPORT": "apoyo",
   "ADMINISTRATION": "administración",
   "USER": "usuario",
-  "PERMISSIONS": "permisos"
+  "PERMISSION": "permisos",
+  "SYSTEM_ADMINISTRATOR": "administrador de sistema"
 }
