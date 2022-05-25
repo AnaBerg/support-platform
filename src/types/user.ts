@@ -1,5 +1,5 @@
 export interface IUser {
-  name: String;
-  id: String;
-  auth: String;
+  name: string;
+  id: boolean;
+  auth: string;
 }

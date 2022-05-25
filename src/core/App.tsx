@@ -1,14 +1,15 @@
-import { createTheme, ThemeProvider, CssBaseline } from '@mui/material';
-import { I18nextProvider } from 'react-i18next';
+import { createTheme, ThemeProvider, CssBaseline } from "@mui/material";
+import { I18nextProvider } from "react-i18next";
 
-import Router from './Router';
+import Router from "./Router";
 
-import i18n from './i18n';
-import { palette, typography } from './globalStyles';
+import i18n from "./i18n";
+import { palette, typography, components } from "./globalStyles";
 
 const theme = createTheme({
   palette,
   typography,
+  components,
 });
 
 const App = () => {

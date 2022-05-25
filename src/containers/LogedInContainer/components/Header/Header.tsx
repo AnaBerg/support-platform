@@ -32,7 +32,7 @@ const Header = () => {
     height: '100vh',
     display: 'flex',
     justifyContent: 'center',
-    padding: 60,
+    padding: 40,
   }));
 
   const StyledButton = styled(Button)<ButtonProps>(({ theme }) => ({

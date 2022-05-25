@@ -8,5 +8,8 @@
   "ADMINISTRATION": "administração",
   "USER": "usuário",
   "PERMISSION": "permissões",
-  "SYSTEM_ADMINISTRATOR": "administrador de sistema"
+  "SYSTEM_ADMINISTRATOR": "administrador de sistema",
+  "EMAIL": "e-mail",
+  "PASSWORD": "senha",
+  "LOGIN": "login"
 }
